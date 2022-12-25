@@ -4,12 +4,14 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+Hey,Dheeraj here
+I will use this platform to share my ongoing journey in Blockchain domain from scratch.
+
 
 ### More Information
 
-A place to include any other types of information that you'd like to include about yourself.
+I am open to feedbacks :)Feel free to reach out.
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[email@domain.com](mailto:dheeraj123maske@gmail.com)
