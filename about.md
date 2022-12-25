@@ -14,4 +14,4 @@ I am open to feedbacks :)Feel free to reach out.
 
 ### Contact me
 
-[email@domain.com](mailto:dheeraj123maske@gmail.com)
+[dheeraj123maske@gmail.com](mailto:dheeraj123maske@gmail.com)
