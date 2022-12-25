@@ -1,0 +1,45 @@
+a)What Is Double-Spending?
+
+b)Types of attacks involved in cryptocurrency?
+
+1)Finney attack
+2)51% attack
+3)race attack
+
+c)Ways to prevent these attacks?
+
+When we use currency twice for the same purpose at the same instant is known as double-spending. Transaction information within a blockchain can be altered if specific conditions are met and can lead to various attacks which are discussed below. 
+
+Consider this currency as Cryptocurrency(Bitcoin, Ethereum, etc).
+
+
+Types of attacks involved in Double spending-:
+
+1)51% attack
+ This kind of attack is harder to proceed with because attackers need to own the majority of the blocks to perform the manipulation.Hackers usually take over 51% of the mining power of blockchain and therefore can do anything of their own will.
+
+
+2)Finney attack
+It is an attack where attackers create two transactions - one crediting the victim and one crediting themselves. They keep the first transaction for now on hold and proceed to try mining the second one into a block. When they succeed (this may take a while(Let's say t time)), they quickly make a purchase with the first transaction, get the goods they purchased, and then release the pre-mined block(hold release). This way the first transaction will become invalidated, even if it is propagated through the whole network.
+
+This variant of double-spend attack is harder to execute (mining a block by oneself hasn't been easy for a long while) but is undetectable until it has been fully executed. The only way to protect oneself against such an attack is to require at least one confirmation for a transaction before giving out purchased goods, and requiring more confirmations for transactions worth more.
+
+3)Race attack
+
+It is an attack in which there is a ‘race’ between two transactions. The attacker sends the same money using different machines to two different merchants. The merchants send their goods but transactions get invalid. As an attacker, you can send the same coin to different vendors using the two machines. If the vendors deliver the things without waiting for block confirmation, they will soon realize that the transaction was rejected during the mining process.
+
+To understand double-spending, it helps to review how the blockchain works first. When a block is created, it receives a hash—or encrypted number—that includes a timestamp, information from the previous block, and transaction data. This information is encrypted using a security protocol like the SHA-256 algorithm used by Bitcoin.
+
+
+
+What steps will help to solve the double spending problem(Related to cryptocurrencies)?
+
+
+
+1)Validation: Validation of transactions by a maximum number of nodes in the network to prevent 51% attack. Once a block is created, it is added to a list of pending transactions. Users send validation for the block. If the verifications are done then only the block is added to the blockchain.
+
+
+2)Timestamp: The confirmed transactions are timestamped, therefore they are irreversible. If a transaction is involved with a bitcoin it is verified and done. But in the future, if other transactions are made with the same bitcoin, the transactions will be canceled.
+
+
+3)Block Confirmations: To get a validation of your block confirmation a merchant should wait for at least 6 transactions.
